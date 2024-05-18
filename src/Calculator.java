@@ -6,11 +6,11 @@ public class Calculator {
         String operator;
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter two number :");
-
         try{
-            a = sc.nextInt();
-            b = sc.nextInt();
+            System.out.println("Enter first number :");
+            a = sc.nextDouble();
+            System.out.println("Enter second number :");
+            b = sc.nextDouble();
             System.out.println("Enter an operator (+, -, *, /)");
 
             operator = sc.next();
